@@ -1,7 +1,7 @@
 let fn = {};
 
 // 时间字符串转年月日，时分秒
-fn.yymmddhhmmss = function(str,separate){
+fn.yymmddhhmmss = function(str,separate='-'){
     let str1 = new Date(str);
     let str2 = "";
     str2 += str1.getFullYear();
@@ -18,7 +18,7 @@ fn.yymmddhhmmss = function(str,separate){
     return str2;
 };
 // 时间字符串转年月日
-fn.yymmdd = function(str,separate){
+fn.yymmdd = function(str,separate='-'){
     let str1 = new Date(str);
     let str2 = "";
     str2 += str1.getFullYear();
