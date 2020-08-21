@@ -1,0 +1,12 @@
+{
+  "name": "phoenixtree-time-change",
+  "version": "1.0.2",
+  "description": "时间操作插件",
+  "main": "index.js",
+  "keywords": ["time","timeChange","time-change","phoenix","phoenixtree"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "墨色梧桐\u001b[A\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[B",
+  "license": "ISC"
+}
