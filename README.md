@@ -1,8 +1,9 @@
 ## 时间操作插件
 
 ### 安装
-*** 
-`< install phoenix-time-change>`
+@Override
+install phoenix-time-change
+#```
 
 #### 实例
 *** 
