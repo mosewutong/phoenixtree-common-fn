@@ -4,8 +4,8 @@
 ```
 npm install phoenix-time-change
 ```
-
-#### 实例
+### Example
+##### change_time(timeStr,timeType[,separate])
 参数:  
 
 1. timeStr: 时间字符串  
@@ -38,5 +38,5 @@ let timeStr = new Date('2020-01-01 00:00:00');
 // 写入转换类型 所有类型在参数列表中有详细列举
 let timeType = 'yymmddhhmmss';  
 // 调用插件时间转换固定格式字符串
-let str = timeChange.change_time(timeStr,timeType'[,'separate']);  
+let str = timeChange.change_time(timeStr,timeType','-');  
 ```
