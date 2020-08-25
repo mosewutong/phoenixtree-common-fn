@@ -2,10 +2,10 @@
 
 #### 安装
 ```
-npm install phoenix-time-change
+npm install phoenixtree-time-change
 ```
 ### Example
-##### change_time(timeStr,timeType[,separate])
+##### 时间转字符串函数change_time(timeStr,timeType[,separate])
 参数:  
 
 1. timeStr: 时间字符串  
@@ -31,12 +31,28 @@ npm install phoenix-time-change
         - 是否必填 不必填  
 
 ```
-// 引入插件
 const timeChange = require('phoenixtree-time-change');  
-// 生成需要转换的时间字符串
+
 let timeStr = new Date('2020-01-01 00:00:00');  
-// 写入转换类型 所有类型在参数列表中有详细列举
+
 let timeType = 'yymmddhhmmss';  
-// 调用插件时间转换固定格式字符串
+
 let str = timeChange.change_time(timeStr,timeType','-');  
+```
+
+##### 获取某一月份有多少天函数get_month_number(timeStr)
+参数： 
+
+- timeStr: 
+    - type: string/int
+        - 时间字符串或者时间戳
+    - require: true
+        - 必填
+
+```
+const timeChange = require('phoenixtree-time-change');  
+
+let timeStr = new Date('1900-02-01');
+
+let month_number = timeChange.get_month_number(timeStr); 
 ```
