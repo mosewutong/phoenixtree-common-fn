@@ -1,6 +1,6 @@
 {
   "name": "phoenixtree-time-change",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "时间操作插件",
   "main": "index.js",
   "keywords": ["time","timechange","timeChange","time-change","time_change","phoenix","phoenixtree"],

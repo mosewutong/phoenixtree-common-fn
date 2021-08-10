@@ -12,7 +12,7 @@ npm install phoenixtree-time-change
     - type: string/int  
         - 可以是时间字符串，也可以是'2020-01-01'字符串类型，亦或是'2020-01-01 10:10:10'字符串类型，也可以是时间戳  
     - require: true  
-        - 是否必填 必填
+        - 必填
 
 2. timeType: 转换成字符串的类型  
     - tyep: string  
@@ -22,13 +22,13 @@ npm install phoenixtree-time-change
         - 'hhmmss': 时分秒;  
         - 'timestamp': 毫秒级时间戳    
     - require: true  
-        - 是否必填 必填   
+        - 必填   
 
 3. separate:  
     - type: string  
-        - '年月日中间连接字符串可以使用-,/两种，建议-，默认-'  
+        - '年月日中间连接字符串可以使用-,/两种，建议/，默认/'  
     - require: false
-        - 是否必填 不必填  
+        - 不必填  
 
 ```
 const timeChange = require('phoenixtree-time-change');  
