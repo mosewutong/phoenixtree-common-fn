@@ -37,7 +37,7 @@ let timeStr = new Date('2020-01-01 00:00:00');
 
 let timeType = 'yymmddhhmmss';  
 
-let str = timeChange.change_time(timeStr,timeType','-');  
+let str = timeChange.change_time(timeStr,timeType','/');  
 ```
 
 ##### 获取某一月份有多少天函数get_month_number(timeStr)
