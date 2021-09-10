@@ -20,7 +20,11 @@ npm install phoenixtree-common-fn
     1. timeStr: 时间字符串  
         type: string/int
         
-        示例：可以是时间字符串，也可以是'2020-01-01'字符串类型，亦或是'2020-01-01 10:10:10'字符串类型，也可以是时间戳  
+        示例：
+        可以是时间字符串，
+        也可以是'2020-01-01'字符串类型，
+        亦或是'2020-01-01 10:10:10'字符串类型，
+        也可以是时间戳  
 
         require: true  
 
@@ -28,17 +32,17 @@ npm install phoenixtree-common-fn
         tyep: string  
 
         示例：
-        - yymmddhhmmss':年月日 时分秒;  
-        - 'yymmdd'：年月日;  
-        - 'hhmmss': 时分秒;  
-        - 'timestamp': 毫秒级时间戳   
+        - yymmddhhmmss:年月日 时分秒;  
+        - yymmdd：年月日;  
+        - hhmmss: 时分秒;  
+        - timestamp: 毫秒级时间戳   
 
         require: true  
 
     3. separate:  
         type: string 
         
-        示例：'年月日中间连接字符串可以使用-,/两种，建议/，默认/'  
+        示例：年月日中间连接字符串可以使用-,/两种，建议/，默认/  
         
         require: false
 
