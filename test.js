@@ -8,7 +8,13 @@ console.log(utils.num2cn_utils(2020.22))
 
 console.log(utils.computed_age('20200101'))
 
-console.log(utils.isMobile())
+// console.log(utils.isMobile())
+
+console.log(utils.initNum(1234567899))
+
+console.log(utils.join_space('abcdefghijk', 4, '-'))
+
+
 
 
 
